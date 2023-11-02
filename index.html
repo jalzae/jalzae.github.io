@@ -5,10 +5,86 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Profil</title>
+
+  <style>
+    body {
+      text-align:center;
+    }
+    footer {
+      background:black;
+      color:white;
+      padding:8px;
+      margin-top:12px;
+    }
+    nav ul {
+      display:flex;
+      justify-content: left;
+      gap:8px;
+    }
+    nav ul li {
+      width:30%;
+      list-style:none;
+      background:black;
+      color:white;
+      padding:8px;
+      border-radius: 20px;
+    }
+    nav ul li:hover {
+      background:white;
+      color:black;
+      border:1px solid black;
+    }
+    .card {
+      border:2px solid #eee;
+      border-radius:20px;
+      box-shadow: 4px ;
+      margin-top: 16px;
+    }
+    
+    .card ul li {
+      list-style:none;
+      text-align: left;
+    }
+    .card ul li a {
+      color:black !important;
+      
+    }
+  </style>
 </head>
 
 <body>
-hello world!
+  <nav>
+  <ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Komentar</li>
+  </ul>  
+  </nav>
+  <header>
+    <h1>Jalz Profile</h1>
+    <img src="http://placekitten.com/g/300/400" alt="Poto orang ganteng" />
+  </header>
+  <section>
+    <div class="card">
+      <h2>About</h2>
+      <p><marquee> Saya adalah seorang <strong>Web Developer💻</strong></marquee></p>
+    </div>
+    <div class="card">
+      <h2>Social Media</h2>
+      <ul>
+        <li>
+          <a href="https://linkedin.com/in/jaisyas">Linkedin</a>
+        </li>
+        <li>
+          <a href="https://github.com/jalzae" target="_blank">Github</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    Copyright By J @2023
+  </footer>
+
 </body>
 
 </html>
