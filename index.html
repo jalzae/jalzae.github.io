@@ -34,6 +34,9 @@
       color:black;
       border:1px solid black;
     }
+    nav ul li a {
+      color:white !important
+    }
     .card {
       border:2px solid #eee;
       border-radius:20px;
@@ -49,6 +52,19 @@
       color:black !important;
       
     }
+    
+    .form-control {
+      width:90%;
+      margin-bottom:8px;
+    }
+    
+    .btn {
+      background: blue;
+      color:white;
+      padding:8px;
+      border-radius:8px;
+      font-size:16px;
+    }
   </style>
 </head>
 
@@ -56,8 +72,8 @@
   <nav>
   <ul>
     <li>Home</li>
-    <li>About</li>
-    <li>Komentar</li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#komentar"> Komentar</a></li>
   </ul>  
   </nav>
   <header>
@@ -80,11 +96,25 @@
         </li>
       </ul>
     </div>
+    <div id="komentar" class="card">
+      <h2>Kirim Pesan</h2>
+      <form id="forms">
+        <input class="form-control" type="text" id="name" placeholder="Name..."/>
+        <textarea class="form-control" placeholder="Tuliskan pesanmu" id="message"></textarea>
+        <button class="form-control btn">Kirim</button>
+      </form>
+    </div>
+    <div class="card">
+      <h2>Pesan</h2>
+      <ul id="list_pesan"></ul>
+    </div>
   </section>
   <footer>
     Copyright By J @2023
   </footer>
 
+<script src="app.js">
+</script>
 </body>
 
 </html>
