@@ -1,31 +1,30 @@
-const name = document.getElementById('name')
+//TODO cara agar sebuah form pesan itu tertulis di pesan
 
-const message = document.getElementById('message')
-const list_pesan = document.getElementById('list_pesan')
+
+//1 kita harus buat input dan dapatkan elemennya
+const name=document.getElementById('name')
+const message =document.getElementById('message')
+const listPesan=document.getElementById('list_pesan')
+
+//2 buat fungsi untuk meletakkan pesan kedalam list
+
 const forms =document.getElementById('forms')
 
-forms.onsubmit=(e)=> {
-  e.preventDefault();
+forms.onsubmit = (e) => {
   
+  e.preventDefault()
   if(name.value==''){
-    alert('Nama kamu kosong')
+    alert('nama kamu kosong')
     return
   }
   
   if(message.value==''){
-    alert('Pesan kamu kosong')
+    alert('pesan kamu kosong')
     return
   }
   
-  if(name.value && message.value){
-    list_pesan.innerHTML+=`<li>${name.value}: ${message.value}</li>`
-    
-    name.value=''
-    message.value=''
-  }
+  list_pesan.innerHTML+=`<li> ${name.value} :  ${message.value}</li>`
   
+  name.value=''
+  message.value=''
 }
-
-// kita dapat element nama,pesan
-// kita buat ketika tekan enter/kirim itu akan mengirim pesan ke list_pesan 
-
