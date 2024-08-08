@@ -1,12 +1,15 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <title>Web Saya</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jalzae</title>
 
   <style>
     body {
       text-align: center;
-      padding: 4px;
+      padding: 8px;
     }
 
     nav>ul {
@@ -20,23 +23,29 @@
       border: 1px solid black;
       margin: 4px;
       padding: 4px;
-      border-radius: 8px;
+      border-radius: 20px;
       cursor: pointer;
     }
 
     nav>ul>li:hover {
       background: black;
       color: white;
+      border: none;
     }
 
     .card {
-      border: 4px dotted black;
-      margin-bottom: 8px;
+      border: 3px dotted black;
+      margin-bottom: 12px;
     }
 
     .card>p {
-      text-align: justify;
-      margin: 4px;
+      text-align: left;
+      padding-left: 16px
+    }
+
+    form {
+      margin-bottom:16px;
+      
     }
 
     #daftarKomentar {
@@ -46,54 +55,61 @@
     #daftarKomentar>li>span {
       font-weight:700;
     }
+
+    .formGroup>button {
+      background:cyan;
+      color:white;
+      border:none !important;
+      padding:8px;
+      border-radius:12px;
+      padding:4px;
+      min-width:20%;
+    }
   </style>
 </head>
 
 <body>
-  <h1>Jay</h1>
+  <h1>Website Jalz</h1>
 
   <nav>
     <ul>
-      <li>About</li>
+      <li>Tentang</li>
       <li>Form</li>
       <li>Komentar</li>
     </ul>
   </nav>
 
   <div class="card">
-    <h2>About</h2>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
-      Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
-      of Lorem Ipsum.</p>
+    <h2>Tentang</h2>
+
+    <p>A Programmer which interest in code,cultural and also interest to you. lets be friend founder @EBAS-ID</p>
   </div>
 
   <div class="card">
     <h2>Form</h2>
-    <form id="formAdd">
+    <form method="get" action="#">
+
       <div class="formGroup">
         <label for="nama">Nama</label>
-        <input type="text" id="nama" name='nama' placeholder="Masukan nama kamu" />
+        <input type="text" placeholder="Masukan nama kamu" id="nama"/>
       </div>
 
       <div class="formGroup">
         <label for="komentar">Komentar</label>
-        <textarea id="komentar" placeholder="Komentar kamu"></textarea>
+        <textarea type="text" placeholder="Masukan komentar kamu" id="komentar"></textarea>
       </div>
 
       <div class="formGroup">
-        <button>Kirim komentar</button>
+        <button type="submit">Kirim Pesan</button>
       </div>
+
     </form>
   </div>
 
   <div class="card">
     <h2>Komentar</h2>
-
     <ul id="daftarKomentar">
-      <li><span>Dimas</span> : halo</li>
+      <li><span>Dimas</span> :  Halooo semuanya</li>
     </ul>
   </div>
 </body>
