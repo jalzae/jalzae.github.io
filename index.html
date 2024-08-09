@@ -44,26 +44,26 @@
     }
 
     form {
-      margin-bottom:16px;
-      
+      margin-bottom: 16px;
+
     }
 
     #daftarKomentar {
-      text-align:left;
+      text-align: left;
     }
 
     #daftarKomentar>li>span {
-      font-weight:700;
+      font-weight: 700;
     }
 
     .formGroup>button {
-      background:cyan;
-      color:white;
-      border:none !important;
-      padding:8px;
-      border-radius:12px;
-      padding:4px;
-      min-width:20%;
+      background: cyan;
+      color: white;
+      border: none !important;
+      padding: 8px;
+      border-radius: 12px;
+      padding: 4px;
+      min-width: 20%;
     }
   </style>
 </head>
@@ -87,11 +87,11 @@
 
   <div class="card">
     <h2>Form</h2>
-    <form method="get" action="#">
+    <form method="get" action="#" id="forms">
 
       <div class="formGroup">
         <label for="nama">Nama</label>
-        <input type="text" placeholder="Masukan nama kamu" id="nama"/>
+        <input type="text" placeholder="Masukan nama kamu" id="nama" />
       </div>
 
       <div class="formGroup">
@@ -109,9 +109,63 @@
   <div class="card">
     <h2>Komentar</h2>
     <ul id="daftarKomentar">
-      <li><span>Dimas</span> :  Halooo semuanya</li>
+     
     </ul>
   </div>
+
+  <script>
+    const forms = document.getElementById('forms')
+    const nama=document.getElementById('nama')
+    const komentar=document.getElementById('komentar')
+    const daftarKomentar=document.getElementById('daftarKomentar')
+
+    function read(){
+      const data=JSON.parse(localStorage.getItem('komentar')?? '[]')
+      for(const item of data){
+        daftarKomentar.innerHTML+=`<li><span>${item.nama}</span> : ${item.komentar}</li>`
+      }
+    }
+
+    function create(nama,komentar){
+      const data=JSON.parse(localStorage.getItem('komentar')?? '[]')
+      data.push({
+        nama,
+        komentar
+      })
+      localStorage.setItem('komentar',JSON.stringify(data))
+    }
+
+    forms.onsubmit=(e)=> {
+      //cegah reload
+      e.preventDefault()
+
+      //dapat isi dari nama
+      //cek dlu apakah nama kosong
+      if(nama.value==''){
+        alert('Nama kosong')
+        return
+      }
+      //dapatkan isi dari komentar
+      //cek dulu apakah komentar kosong
+      if(komentar.value==''){
+        alert('Komentar kosong')
+        return
+      }
+      //tambahkan komentar ke html
+      daftarKomentar.innerHTML+=`<li><span>${nama.value}</span> : ${komentar.value}</li>`
+      create(nama.value,komentar.value)
+      //reset form
+      nama.value=''
+      komentar.value=''
+
+      alert('Berhasil mengirim pesan')
+    }
+
+    (()=>{
+      read()
+    })()
+
+  </script>
 </body>
 
 </html>
