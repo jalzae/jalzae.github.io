@@ -1,9 +1,84 @@
 <html>
-  <head>
-    <title>Jaisy</title>
-  </head>
 
-  <body>
-    <p>Hii, saya belajar web developer</p>
-  </body>
+<head>
+  <title>Jaisy</title>
+
+  <style>
+    body {
+      text-align: center;
+    }
+
+    nav>ul {
+      display:flex;
+      list-style:none;
+      justify-content:center;
+    }
+
+    nav>ul>li {
+      min-width:100px;
+      padding:8px;
+      margin:8px;
+      border:1px solid black;
+      border-radius:4px;
+    }
+
+    nav>ul>li:hover {
+      color:white;
+      background:black;
+      cursor:pointer;
+    }
+
+    .card {
+      border:4px dotted black;
+      padding:8px;
+      margin-bottom:16px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Web Baru Saya</h1>
+
+  <nav>
+    <ul>
+      <li>Tentang</li>
+      <li>Form</li>
+      <li>Komentar</li>
+    </ul>
+  </nav>
+
+  <div class="card">
+    <h2>Tentang</h2>
+    <img src="https://picsum.photos/200/300"/>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+  </div>
+
+
+  <div class="card">
+    <h2>Form</h2>
+    <form action="#" method="post" id="formAdd">
+      <form-group>
+        <label for="nama">Nama</label>
+        <input id="nama" placeholder="Nama kamu..." />
+      </form-group>
+      <form-group>
+        <label for="komentar">Komentar</label>
+        <input id="komentar" placeholder="Komentar kamu..." />
+      </form-group>
+      <form-group>
+       <button type="submit">Kirim</button>
+       <button type="reset">Reset</button>
+      </form-group>
+    </form>
+  </div>
+
+
+  <div class="card">
+    <h2>Komentar</h2>
+    <ul id="daftarKomentar">
+      <li><span>Denis</span>: hii</li>
+    </ul>
+  </div>
+</body>
+
 </html>
