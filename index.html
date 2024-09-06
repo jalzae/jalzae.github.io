@@ -9,29 +9,52 @@
     }
 
     nav>ul {
-      display:flex;
-      list-style:none;
-      justify-content:center;
+      display: flex;
+      list-style: none;
+      justify-content: center;
     }
 
     nav>ul>li {
-      min-width:100px;
-      padding:8px;
-      margin:8px;
-      border:1px solid black;
-      border-radius:4px;
+      min-width: 100px;
+      padding: 8px;
+      margin: 8px;
+      border: 1px solid black;
+      border-radius: 4px;
     }
 
     nav>ul>li:hover {
-      color:white;
-      background:black;
-      cursor:pointer;
+      color: white;
+      background: black;
+      cursor: pointer;
     }
 
     .card {
-      border:4px dotted black;
-      padding:8px;
-      margin-bottom:16px;
+      border: 4px dotted black;
+      padding: 8px;
+      margin-bottom: 16px;
+    }
+
+    #daftarKomentar {
+      text-align: left;
+    }
+
+    #daftarKomentar>li>span {
+      font-weight: 700;
+    }
+
+    #formAdd {
+      width: 100%
+    }
+
+    #formAdd>div {
+      margin-bottom:10px;
+      text-align:left;
+      left:40%;
+      position:relative;
+    }
+
+    form-group {
+      width: 100%
     }
   </style>
 </head>
@@ -49,26 +72,31 @@
 
   <div class="card">
     <h2>Tentang</h2>
-    <img src="https://picsum.photos/200/300"/>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+    <img src="https://picsum.photos/200/300" />
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+      Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+      of Lorem Ipsum</p>
   </div>
 
 
   <div class="card">
     <h2>Form</h2>
     <form action="#" method="post" id="formAdd">
-      <form-group>
+      <div>
         <label for="nama">Nama</label>
         <input id="nama" placeholder="Nama kamu..." />
-      </form-group>
-      <form-group>
+      </div>
+      <div>
         <label for="komentar">Komentar</label>
         <input id="komentar" placeholder="Komentar kamu..." />
-      </form-group>
-      <form-group>
-       <button type="submit">Kirim</button>
-       <button type="reset">Reset</button>
-      </form-group>
+      </div>
+      <div>
+        <button type="submit">Kirim</button>
+        <button type="reset">Reset</button>
+      </div>
     </form>
   </div>
 
@@ -79,6 +107,30 @@
       <li><span>Denis</span>: hii</li>
     </ul>
   </div>
+
+  <script>
+    const formAdd=document.getElementById('formAdd')
+    const daftarKomentar=document.getElementById('daftarKomentar')
+    const nama=document.getElementById('nama')
+    const komentar=document.getElementById('komentar')
+
+    daftarKomentar.innerHTML=''
+    daftarKomentar.innerHTML+=`<li><span>Denis</span>: hii</li>`
+
+    formAdd.onsubmit=(e)=>{
+      e.preventDefault()
+
+      if(nama.value=='' || komentar.value==''){
+        alert('Input salah,tolong periksa')
+        return
+      }
+
+      daftarKomentar.innerHTML+=`<li><span>${nama.value}</span>: ${komentar.value}</li>`
+      nama.value=''
+      komentar.value=''
+    }
+
+  </script>
 </body>
 
 </html>
