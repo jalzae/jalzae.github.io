@@ -1,9 +1,76 @@
 <html>
-  <head>
-    <title>Jay</title>
-  </head>
 
-  <body>
-  <p>Ini adalah paragraf singkat untuk website pertamaku</p>
-  </body>
+<head>
+  <title>Jay</title>
+
+  <style>
+    body {
+      text-align:center;
+
+    }
+
+    nav>ul {
+      display:flex;
+      list-style: none;
+      justify-content: center;
+    }
+
+    nav>ul>li {
+      min-width:100px;
+      border:1px solid black;
+      border-radius: 8px;
+      padding:8px;
+      margin:8px;
+    }
+
+    nav>ul>li:hover {
+      background:black;
+      color:white;
+      cursor:pointer
+    }
+
+    .card {
+      border:4px dotted black;
+      margin:8px;
+      padding:12px;
+    }
+
+   
+  </style>
+</head>
+
+<body>
+  <h1>Jalz</h1>
+  <nav>
+    <ul>
+      <li>
+        Tentang
+      </li>
+      <li>
+        Form
+      </li>
+      <li>
+        Komentar
+      </li>
+    </ul>
+  </nav>
+
+  <div class="card">
+    <h2>Tentang</h2>
+
+    <p>Saya seorang web developer</p>
+  </div>
+
+  <div class="card">
+    <h2>Form</h2>
+  </div>
+
+  <div class="card">
+    <h2>Komentar</h2>
+    <ul id="daftarKomentar">
+      <li><span>Hendra</span>: hiii!</li>
+    </ul>
+  </div>
+</body>
+
 </html>
