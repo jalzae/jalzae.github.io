@@ -1,9 +1,80 @@
 <html>
-  <head>
-    <title>Jay</title>
-  </head>
 
-  <body>
-  <p>Ini adalah paragraf singkat untuk website pertamaku</p>
-  </body>
+<head>
+  <title>Jay - Web Pribadi</title>
+
+  <style>
+    body {
+      text-align: center;
+    }
+
+    nav>ul {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+    }
+
+    nav>ul>li {
+      min-width: 100px;
+      font-weight: 700;
+      border: 1px solid black;
+      padding: 8px;
+      margin: 8px;
+      border-radius: 8px;
+    }
+
+    nav>ul>li:hover {
+      background: black;
+      color: white;
+      cursor: pointer;
+    }
+
+    .card {
+      border: 3px dotted black;
+      margin: 12px;
+      padding: 12px;
+    }
+
+    #daftarKomentar {
+      text-align: left;
+    }
+
+    #daftarKomentar>li>span {
+      font-weight: 700;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Web Jaisy A.S</h1>
+
+  <nav>
+    <ul>
+      <li>Tentang</li>
+      <li>Formulir</li>
+      <li>Komentar</li>
+    </ul>
+  </nav>
+
+  <div class="card">
+    <h2>Tentang</h2>
+    <img
+      src="https://st5.depositphotos.com/6923920/66359/i/450/depositphotos_663596106-stock-photo-cat-green-grass.jpg" />
+    <marquee>
+      <p>Saya seorang web developer</p>
+    </marquee>
+  </div>
+
+  <div class="card">
+    <h2>Formulir</h2>
+  </div>
+
+  <div class="card">
+    <h2>Komentar</h2>
+    <ul id="daftarKomentar">
+      <li><span>Anggoro</span>: Hii</li>
+    </ul>
+  </div>
+</body>
+
 </html>
