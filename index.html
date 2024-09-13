@@ -42,6 +42,11 @@
     #daftarKomentar>li>span {
       font-weight: 700;
     }
+
+    .form-group {
+
+      margin-bottom: 12px;
+    }
   </style>
 </head>
 
@@ -67,6 +72,25 @@
 
   <div class="card">
     <h2>Formulir</h2>
+
+    <form id="formAdd" action="#" method="POST">
+
+      <div class="form-group">
+        <label for="nama">Nama</label>
+        <input id="nama" placeholder="Nama kamu" />
+      </div>
+
+      <div class="form-group">
+        <label for="komentar">Komentar</label>
+        <input id="komentar" placeholder="Komentar kamu" />
+      </div>
+
+      <div class="form-group">
+        <input value="Kirim!" type="submit" />
+        <input type="reset" />
+      </div>
+
+    </form>
   </div>
 
   <div class="card">
@@ -75,6 +99,39 @@
       <li><span>Anggoro</span>: Hii</li>
     </ul>
   </div>
+
+  <script>
+    const formAdd = document.getElementById('formAdd')
+    const daftarKomentar = document.getElementById('daftarKomentar')
+    const nama = document.getElementById('nama')
+    const komentar = document.getElementById('komentar')
+
+    formAdd.onsubmit = function (e) {
+      e.preventDefault()
+
+      //dapatkan nilai dari nama dan komentar
+      const Nama = nama.value
+      const Komentar = komentar.value
+
+      //ketika nama atau komentar kosong kita errorkan proses dikembalikan
+      if (Nama == '' || Komentar == '') {
+        (Nama == '') ? alert('Nama Kosong') : alert('Komentar Kosong')
+        return false
+      }
+
+      const today=new Date()
+
+      //ketika sukses daftar komentar akan bertambah
+      daftarKomentar.innerHTML+=` <li><span>${Nama}</span>: ${Komentar} pada ${today}</li>`
+
+      //ketika sudah berhasil input ke daftar komentar kita kosongkan nama dan komentar
+      nama.value=""
+      komentar.value=""
+    }
+
+
+
+  </script>
 </body>
 
 </html>
