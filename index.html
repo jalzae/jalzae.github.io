@@ -37,9 +37,16 @@
       padding: 8px;
     }
 
-    #daftar {display:flex}
+    #daftar {
+    text-align:left;
+    }
+
     #daftar>li>span {
       font-weight: 700;
+    }
+
+    .form-group {
+      margin-bottom: 12px
     }
   </style>
 </head>
@@ -162,6 +169,20 @@
 
   <section class="card">
     <h2>Formulir</h2>
+    <form method="post" action="#" id="addForm">
+      <div class="form-group">
+        <label>Nama</label>
+        <input id="nama" placeholder="Nama kamu" />
+      </div>
+      <div class="form-group">
+        <label>Komentar</label>
+        <input id="komentar" placeholder="Komentar kamu" />
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Kirim" placeholder="Komentar kamu" />
+        <input type="reset" value="Reset" placeholder="Komentar kamu" />
+      </div>
+    </form>
   </section>
 
   <footer class="card">
@@ -170,6 +191,31 @@
       <li><span>Dimas</span>: Halooo</li>
     </ul>
   </footer>
+
+  <script>
+    //get elemen semua
+    const addForm = document.getElementById('addForm')
+    const nama = document.getElementById('nama')
+    const komentar = document.getElementById('komentar')
+    const daftar = document.getElementById('daftar')
+
+    //assign fungsi ketika submit 
+    addForm.onsubmit = (e) => {
+      //prevent form ngirim data langsung
+      e.preventDefault()
+      //kita cek apakah nama atau komentar kosong kalau kosong error
+      if(nama.value=="" || komentar.value==""){
+        alert('Form error,periksa kembali form')
+        return
+      }
+      //ketika berhasil submit tambhkan dalam daftar komentar dan reset formnya
+
+      daftar.innerHTML+=`<li><span>${nama.value}</span>: ${komentar.value}</li>`
+
+      nama.value=""
+      komentar.value=""
+    }
+  </script>
 </body>
 
 </html>
