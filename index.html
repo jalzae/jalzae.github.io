@@ -1,9 +1,74 @@
-<html>
-  <head>
-    <title>Website Saya</title>
-  </head>
+<!DOCTYPE html>
+<html lang="en">
 
-  <body>
-    <marquee>Test</marquee>
-  </body>
+<head>
+  <title>Website Saya</title>
+
+  <style>
+    body {
+      text-align: center;
+    }
+
+    nav>ul {
+      display:flex;
+      justify-content:center;
+    }
+
+    nav>ul>li {
+      list-style: none;
+      min-width:100px;
+      padding:8px;
+      margin:8px;
+      border:1px solid black;
+      border-radius: 4px;
+    }
+
+    nav>ul>li:hover {
+      background:black;
+      color:white;
+      cursor:pointer;
+    }
+
+    .card {
+      border:4px dotted black;
+      margin-bottom:10px;
+    }
+
+    .card>p {
+      text-align:justify;
+      padding:10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Jai's Web</h1>
+
+  <nav>
+    <ul>
+      <li>Tentang</li>
+      <li>Form</li>
+      <li>Komentar</li>
+    </ul>
+  </nav>
+
+  <div class="card">
+    <h2>Tentang</h2>
+    <img src="https://fastly.picsum.photos/id/923/200/300.jpg?hmac=eiYSYaG7v46VlrE38Amrg33bd2FzVjaCsQrLMdekyAU"/>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  </div>
+
+  <div class="card">
+    <h2>Form</h2>
+  </div>
+
+
+  <div class="card">
+    <h2>Komentar</h2>
+    <ul id="daftar">
+      <li><span>Denis</span> : hii</li>
+    </ul>
+  </div>
+</body>
+
 </html>
