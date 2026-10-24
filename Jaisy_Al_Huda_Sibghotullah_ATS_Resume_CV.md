@@ -1,0 +1,160 @@
+# JAISY (JAY) AL HUDA SIBGHOTULLAH
+
+**Senior Full-Stack Software Engineer**
+
+Backend Architecture · Web, Mobile & Desktop Applications · System Design & Technical Leadership
+
+Indonesia | +62 858-6907-0071 | jalzae@gmail.com  
+GitHub: github.com/jalzae | LinkedIn: Jaisy A.S. | jalzae.my.id
+
+## Professional Summary
+
+Senior Full-Stack Software Engineer with 7+ years of experience designing, building, and scaling web, mobile, and desktop applications across backend architecture, frontend implementation, and DevOps. Proven track record of leading technical decision-making, mentoring engineers, and driving architectural choices that improve reliability, scalability, and operational efficiency. Expert in REST API development, system design, database architecture, automation workflows, and performance optimization using TypeScript, JavaScript, Node.js, Express.js, PHP, and CodeIgniter 4. Hands-on with Nuxt, Vue.js, Next.js, React, Flutter, PostgreSQL, MySQL, SQL Server, Docker, AWS, Google Cloud, Git, CI/CD, and Agile/Scrum delivery.
+
+**Senior-level impact:** Led backend architecture supporting 10k+ monthly active users; mentored junior developers and trainees; reduced API latency by ~30% and deployment time by ~50%; automated HR workflows cutting manual processing by ~40%; maintained 99.9% production uptime.
+
+## Core Technical Competencies
+
+- **System Design & Architecture:** Distributed systems, microservices, containerized deployment, API design, schema design, multi-tenancy, scalability patterns, fault tolerance
+- **Backend Engineering:** Node.js, Express.js, TypeScript, JavaScript, PHP, CodeIgniter 4, Medusa.js, ElysiaJs, REST API, business logic, automation workflows
+- **Frontend Engineering:** Nuxt, Vue.js, Next.js, React, HTML, CSS, responsive UI, reusable component libraries, Pinia, state management
+- **Mobile and Desktop:** Flutter, Dart, C#, cross-platform development, desktop application architecture
+- **Data and Persistence:** PostgreSQL, TypeORM, MySQL, MS SQL Server, MariaDB, SQLite, query optimization, indexing, database migration
+- **Cloud and DevOps:** AWS, Google Cloud, Docker, CI/CD pipelines, deployment automation, monitoring, Git version control
+- **Engineering Leadership:** Technical decision-making, code reviews, mentorship, Agile/Scrum, cross-functional collaboration, SDLC ownership
+
+## Professional Experience
+
+### Senior Back-End Developer — Alpha Reds Solutions (Malaysia) · Remote
+**Nov 2025 – Present**
+
+- Designed backend services with Node.js, Express.js, Medusa.js, ElysiaJs, and TypeScript supporting ~10k+ monthly active users across store and administration portals.
+- Owned service boundaries, data modeling, and API contracts for store and administration systems.
+- Engineered REST APIs and reduced average API response time by ~30% through schema redesign, indexing, and caching strategies.
+- Built UI with React and Next.js to consume backend APIs; collaborated with frontend engineers on API contract alignment.
+- Designed and maintained MySQL and PostgreSQL schemas using TypeORM for reliable, multi-tenant data access.
+- Translated product, order, and inventory requirements into maintainable backend logic supporting high-volume e-commerce processing.
+- Built AI-powered HRIS modules covering overtime, leave, and eClaims management; automated HR workflows and reduced manual HR effort by ~40%.
+- Automated reporting with AI-generated meeting summaries and DevOps task reports aggregated from Jira, Clockify, and Azure DevOps.
+- Improved database query throughput by ~25% through schema and index optimization.
+- Maintained 99.9% production uptime for backend services.
+
+
+### Front-End Developer — Kemang Internet Pte Ltd (Kembang Internet)
+**May 2025 – Oct 2025**
+
+- Built responsive, high-performance web applications with Nuxt and Vue.js; achieved Lighthouse scores of 90+ on core pages.
+- Integrated frontend applications with backend APIs using reusable, scalable UI components.
+- Reduced frontend bundle size by ~15% through code splitting and lazy loading.
+- Partnered with the design team to convert Figma designs into production-ready, performant components.
+
+### Back-End Developer — Vobis.io · Fintech Company
+**Mar 2022 – Oct 2023**
+
+- Owned backend automation for sales and accounting workflows.
+- Built and deployed containerized microservices on AWS/Docker, cutting deployment time by ~50%.
+- Strengthened service reliability with AWS, Docker, and Express.js; reduced API latency by ~20% under peak load.
+- Automated monthly sales and accounting reconciliation, saving ~35 manual hours per month.
+- Created and shipped the Vobis mobile application with Flutter to iOS and Android; achieved 2k+ downloads in the first quarter.
+
+
+### IT Network Specialist — PT Roda Chakra Kencana
+**Jan 2021 – Dec 2021**
+
+- Maintained server uptime and network monitoring across company sites; achieved 99.8% network availability.
+- Reduced hardware-related downtime by ~20% through a preventive maintenance program.
+- Cut incident response time by ~30% by introducing preventive IT measures.
+
+### On-Demand Maintenance Developer (Freelance)
+
+#### Web Developer Instructor — LPK Arum, Tegal
+**Feb 2016 – Present**
+
+- Delivered web development instruction online and on-site; trained 150+ students in web and backend development.
+- Mentored 150+ learners in responsive design and maintainable coding practices.
+- Designed industry-aligned curriculum modules for web and backend tracks.
+- Partnered with Karier.mu and Prakerja to deliver certified professional development courses; supported 200+ certified learners.
+- Integrated instructional materials into live projects using the lpk-arum.com codebase as a real-world case study.
+
+#### Full-Stack Programmer — SistemSekolahku / Yayasan Ribathul Ukhuwah, Tegal
+**Oct 2019 – Present**
+
+- Delivered a school management system covering payments, attendance, and reporting; served 5 institutional clients with 2k+ active students.
+- Built backend architecture with CodeIgniter 4/PHP and cross-platform mobile applications with Flutter.
+- Reduced data entry errors by ~30% through automated validation.
+- Provisioned secure, isolated client environments; deployed CI/CD pipelines via sistemsekolahku.com.
+- Supported high-traffic platforms such as situsamah.com and musha.id.
+
+#### Full-Stack Programmer — SAI | Fundraising Organization
+**Dec 2024 – Present**
+
+- Delivered and maintained backend services with TypeScript and Express.js; processed $50k+ in donation transactions securely.
+- Built web interfaces with Nuxt and Pinia focused on usability, maintainability, and scalability.
+- Aligned system architecture and deployment pipelines with stakeholder requirements for funding and ambulance request features at sahabatasnaf.id.
+
+#### Full-Stack Programmer — PT Ebas Solusi Teknologi | eLingkungan
+**Mar 2022 – Present**
+
+- Enhanced and maintained web applications with Nuxt and TypeScript; improved page load speed by ~25%.
+- Implemented backend logic and frontend features using PHP, CodeIgniter, and Vue.js.
+- Led structured refactoring initiatives; reduced bug reports by ~35% post-refactor.
+- Improved codebase maintainability across the application.
+
+**Featured project — Sada Logistic Transport:** Designed routing and delivery management APIs; led technical architecture; reduced delivery planning time by ~25%.
+
+**Featured project — KurirHub (Courier & Delivery Platform, 2023):** Designed backend logistics APIs and real-time tracking; supported 5k+ deliveries/month across multiple driver partners; led API design and technical scope.
+
+## Technical Leadership & Impact Summary
+
+| Impact area | Result | Context |
+|---|---|---|
+| API latency | ~30% reduction | Query optimization, indexing, caching (Alpha Reds Solutions) |
+| Deployment time | ~50% reduction | Containerized microservices deployment on AWS/Docker (Vobis.io) |
+| Manual processing | ~40% reduction | AI-powered HR workflow automation (Alpha Reds Solutions) |
+| Database throughput | ~25% improvement | Schema and index optimization (Alpha Reds Solutions) |
+| Manual effort | ~35 hours/month saved | Sales and accounting automation (Vobis.io) |
+| Production uptime | 99.9% | Backend services (Alpha Reds Solutions) |
+| Network uptime | 99.8% | Multi-site infrastructure (PT Roda Chakra Kencana) |
+| Bug reduction | ~35% | Code refactoring and quality initiatives (eLingkungan) |
+| Users trained | 150+ students | Web/backend instruction (LPK Arum) |
+| Certified learners | 200+ | Karier.mu / Prakerja partnerships (LPK Arum) |
+| Concurrent users | 10k+ MAU | Store and administration portals (Alpha Reds Solutions) |
+
+## Project Experience
+
+- **Orbyte — HRIS Platform (Alpha Reds Solutions):** Built HRIS platform end to end with AI-powered HR workflow automation; managed delivery through internal DevOps tracking (Jira, Azure DevOps).
+- **Xplore Genting — Travel Tech Platform (Alpha Reds Solutions):** Developed travel tech platform features for Genting Highlands offerings; built backend services and integrated frontend with booking workflows.
+- **Vobis ERP (Vobis.io):** Built ERP system end to end for fintech operations; implemented accounting theory into automated reconciliation, journal entries, and financial reporting modules.
+- **KurirHub — Courier & Delivery Platform (2023):** Designed backend logistics APIs and real-time tracking; 5k+ deliveries/month; led API design. 
+- **Sada Logistic Transport — Logistics & Delivery Platform:** Designed routing and delivery management APIs; reduced delivery planning time by ~25%; led technical architecture.
+- **Dragonest Private Server Web — WonderFull DN:** Built game server web panel supporting concurrent sessions for a private server community.
+- **Mobile Meme Generator:** Created Flutter mobile application for iOS and Android.
+- **Flutter Flamelearning Template:** Developed educational game template using the Flutter Flame engine.
+- **Industrial Desktop Application — PT. BBS / PT. MBS:** Built C# desktop application for industrial workflow management.
+- **Tracer Study:** Developed alumni tracking and reporting system for an educational institution.
+- **Crypto Monitoring:** Created real-time cryptocurrency price tracking dashboard.
+- **CMS (yru.or.id):** Built content management system for an organizational website.
+- **Tax Public Survey:** Developed tax collection and public feedback survey platform.
+- **Machine Learning — Barbershop Hair Style Matching:** Implemented ML-based hairstyle recommendation system.
+- **Competition Live Scoring:** Built real-time scoring system for live competitions and events.
+- **vue-form — npm package:** Published auto form-generation library for Vue 3 and Nuxt.
+- **auto-summary — VS Code extension:** Built extension that auto-generates function summary documentation (TypeScript).
+- **json_schema_db:** Built JSON-file-based database engine for lightweight persistence (PHP).
+- **socketio-sqlite:** Built real-time websocket chat module using Socket.IO and SQLite.
+- **crud_generator:** Created instant CRUD scaffolding generator for PHP development.
+- **Vue & Node utility libraries:** Shipped vue-captcha, vue-table, vue-loading, read-xlsx-node (xlsx-to-JSON), encrypt_blowfish (Blowfish encryption), and auto_test (self-testing function utility).
+
+## Education
+
+**Universitas Nusa Mandiri** — Information Technology (2025) — Bachelor Degree  
+**BSI University** — Computer Technology (2015) — Associate Degree
+
+## Certifications
+
+- BNSP — Database Programmer (2023)
+- BNSP — Training Methodologies (2023)
+- Cisco Networking Academy — CCNA (2024)
+- Rakamin Academy — Software Quality Assurance (2024)
+- Dicoding — Android (Java) Beginner (2024)
+- PKS Digital School — Data Science (2023)
+- PKS Digital School — UI/UX (2022)
