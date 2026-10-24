@@ -9,19 +9,22 @@ GitHub: github.com/jalzae | LinkedIn: Jaisy A.S. | jalzae.my.id
 
 ## Professional Summary
 
-Senior Full-Stack Software Engineer with 7+ years of experience designing, building, and scaling web, mobile, and desktop applications across backend architecture, frontend implementation, and DevOps. Proven track record of leading technical decision-making, mentoring engineers, and driving architectural choices that improve reliability, scalability, and operational efficiency. Expert in REST API development, system design, database architecture, automation workflows, and performance optimization using TypeScript, JavaScript, Node.js, Express.js, PHP, and CodeIgniter 4. Hands-on with Nuxt, Vue.js, Next.js, React, Flutter, PostgreSQL, MySQL, SQL Server, Docker, AWS, Google Cloud, Git, CI/CD, and Agile/Scrum delivery.
+Senior Full-Stack Software Engineer (7+ years) building and scaling e-commerce, fintech, and logistics platforms serving 10k+ monthly active users. Owns backend architecture, REST API design, and AWS/Docker CI/CD pipelines end to end — cutting API latency ~30%, deployment time ~50%, and manual HR processing ~40% — while mentoring engineers and driving technical decisions across the SDLC.
 
-**Senior-level impact:** Led backend architecture supporting 10k+ monthly active users; mentored junior developers and trainees; reduced API latency by ~30% and deployment time by ~50%; automated HR workflows cutting manual processing by ~40%; maintained 99.9% production uptime.
+Core stack: TypeScript, Node.js, Express.js, PHP/CodeIgniter 4, Nuxt/Vue.js, React/Next.js, PostgreSQL/MySQL, Flutter — applied across web, mobile, and desktop delivery in Agile/Scrum teams.
+
+**Senior-level impact:** Led backend architecture supporting 10k+ monthly active users; mentored junior developers and trainees; maintained 99.9% production uptime.
 
 ## Core Technical Competencies
 
-- **System Design & Architecture:** Distributed systems, microservices, containerized deployment, API design, schema design, multi-tenancy, scalability patterns, fault tolerance
-- **Backend Engineering:** Node.js, Express.js, TypeScript, JavaScript, PHP, CodeIgniter 4, Medusa.js, ElysiaJs, REST API, business logic, automation workflows
-- **Frontend Engineering:** Nuxt, Vue.js, Next.js, React, HTML, CSS, responsive UI, reusable component libraries, Pinia, state management
-- **Mobile and Desktop:** Flutter, Dart, C#, cross-platform development, desktop application architecture
-- **Data and Persistence:** PostgreSQL, TypeORM, MySQL, MS SQL Server, MariaDB, SQLite, query optimization, indexing, database migration
-- **Cloud and DevOps:** AWS, Google Cloud, Docker, CI/CD pipelines, deployment automation, monitoring, Git version control
-- **Engineering Leadership:** Technical decision-making, code reviews, mentorship, Agile/Scrum, cross-functional collaboration, SDLC ownership
+- **Languages:** TypeScript, JavaScript, PHP, Dart, C#, SQL
+- **Backend:** Node.js, Express.js, Medusa.js, ElysiaJs, CodeIgniter 4, REST API design, automation workflows
+- **Frontend:** Nuxt, Vue.js, Next.js, React, Pinia, responsive UI, reusable component libraries
+- **Mobile & Desktop:** Flutter, cross-platform application architecture
+- **Data:** PostgreSQL, MySQL, MS SQL Server, MariaDB, SQLite, TypeORM, query optimization, indexing
+- **Cloud & DevOps:** AWS, Google Cloud, Docker, CI/CD pipeline design, deployment automation, monitoring, Git
+- **Architecture:** Microservices, multi-tenancy, API/schema design, scalability patterns, fault tolerance
+- **Leadership:** Technical decision-making, code reviews, mentorship, Agile/Scrum, SDLC ownership
 
 ## Professional Experience
 
@@ -31,7 +34,7 @@ Senior Full-Stack Software Engineer with 7+ years of experience designing, build
 - Designed backend services with Node.js, Express.js, Medusa.js, ElysiaJs, and TypeScript supporting ~10k+ monthly active users across store and administration portals.
 - Owned service boundaries, data modeling, and API contracts for store and administration systems.
 - Engineered REST APIs and reduced average API response time by ~30% through schema redesign, indexing, and caching strategies.
-- Built UI with React and Next.js to consume backend APIs; collaborated with frontend engineers on API contract alignment.
+- Built React and Next.js interfaces consuming backend APIs through a shared API contract process with frontend engineers, supporting a 10k+ MAU e-commerce store platform.
 - Designed and maintained MySQL and PostgreSQL schemas using TypeORM for reliable, multi-tenant data access.
 - Translated product, order, and inventory requirements into maintainable backend logic supporting high-volume e-commerce processing.
 - Built AI-powered HRIS modules covering overtime, leave, and eClaims management; automated HR workflows and reduced manual HR effort by ~40%.
@@ -51,10 +54,9 @@ Senior Full-Stack Software Engineer with 7+ years of experience designing, build
 ### Back-End Developer — Vobis.io · Fintech Company
 **Mar 2022 – Oct 2023**
 
-- Owned backend automation for sales and accounting workflows.
-- Built and deployed containerized microservices on AWS/Docker, cutting deployment time by ~50%.
+- Owned backend automation for sales and accounting workflows end to end at a fintech company, replacing manual monthly reconciliation and saving ~35 hours per month.
+- Architected AWS and Docker deployment pipelines with CI/CD automation for containerized microservices, cutting deployment time by ~50%.
 - Strengthened service reliability with AWS, Docker, and Express.js; reduced API latency by ~20% under peak load.
-- Automated monthly sales and accounting reconciliation, saving ~35 manual hours per month.
 - Created and shipped the Vobis mobile application with Flutter to iOS and Android; achieved 2k+ downloads in the first quarter.
 
 
