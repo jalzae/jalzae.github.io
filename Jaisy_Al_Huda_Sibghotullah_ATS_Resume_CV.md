@@ -18,12 +18,12 @@ Core stack: TypeScript, Node.js, Express.js, PHP/CodeIgniter 4, Nuxt/Vue.js, Rea
 ## Core Technical Competencies
 
 - **Languages:** TypeScript, JavaScript, PHP, Dart, C#, SQL
-- **Backend:** Node.js, Express.js, Medusa.js, ElysiaJs, CodeIgniter 4, REST API design, automation workflows
+- **Backend:** Node.js, Express.js, Medusa.js, ElysiaJs, CodeIgniter 4, REST API design, WebSocket, RabbitMQ, automation workflows, unit and regression testing
 - **Frontend:** Nuxt, Vue.js, Next.js, React, Pinia, responsive UI, reusable component libraries
 - **Mobile & Desktop:** Flutter, cross-platform application architecture
-- **Data:** PostgreSQL, MySQL, MS SQL Server, MariaDB, SQLite, TypeORM, query optimization, indexing
-- **Cloud & DevOps:** AWS, Google Cloud, Docker, CI/CD pipeline design, deployment automation, monitoring, Git
-- **Architecture:** Microservices, multi-tenancy, API/schema design, scalability patterns, fault tolerance
+- **Data:** PostgreSQL, MySQL, MS SQL Server, MariaDB, SQLite, Redis, TypeORM, query optimization, indexing
+- **Cloud & DevOps:** AWS, Google Cloud, Docker, CI/CD pipeline design, deployment automation, MikroTik, VPN, network security, monitoring, Git
+- **Architecture:** Microservices, multi-tenancy, API/schema design, scalability patterns, fault tolerance, risk management
 - **Leadership:** Technical decision-making, code reviews, mentorship, Agile/Scrum, SDLC ownership
 
 ## Professional Experience
@@ -31,10 +31,10 @@ Core stack: TypeScript, Node.js, Express.js, PHP/CodeIgniter 4, Nuxt/Vue.js, Rea
 ### Senior Back-End Developer — Alpha Reds Solutions (Malaysia) · Remote
 **Nov 2025 – Present**
 
-- Designed backend services with Node.js, Express.js, Medusa.js, ElysiaJs, and TypeScript supporting ~10k+ monthly active users across store and administration portals.
-- Owned service boundaries, data modeling, and API contracts for store and administration systems.
+- Designed backend services with Node.js, Express.js, Medusa.js, ElysiaJs, and TypeScript supporting travel tech and HRIS platforms processing 10k+ transactions per month.
+- Owned service boundaries, data modeling, and API contracts for travel tech and HRIS systems.
 - Engineered REST APIs and reduced average API response time by ~30% through schema redesign, indexing, and caching strategies.
-- Built React and Next.js interfaces consuming backend APIs through a shared API contract process with frontend engineers, supporting a 10k+ MAU e-commerce store platform.
+- Built React and Next.js interfaces consuming backend APIs through a shared API contract process with frontend engineers, supporting platforms that process 10k+ transactions per month.
 - Designed and maintained MySQL and PostgreSQL schemas using TypeORM for reliable, multi-tenant data access.
 - Translated product, order, and inventory requirements into maintainable backend logic supporting high-volume e-commerce processing.
 - Built AI-powered HRIS modules covering overtime, leave, and eClaims management; automated HR workflows and reduced manual HR effort by ~40%.
@@ -72,10 +72,10 @@ Core stack: TypeScript, Node.js, Express.js, PHP/CodeIgniter 4, Nuxt/Vue.js, Rea
 #### Web Developer Instructor — LPK Arum, Tegal
 **Feb 2016 – Present**
 
-- Delivered web development instruction online and on-site; trained 150+ students in web and backend development.
-- Mentored 150+ learners in responsive design and maintainable coding practices.
+- Delivered web development instruction online and on-site; trained 1500+ students in web and backend development.
+- Mentored 1500+ learners in responsive design and maintainable coding practices.
 - Designed industry-aligned curriculum modules for web and backend tracks.
-- Partnered with Karier.mu and Prakerja to deliver certified professional development courses; supported 200+ certified learners.
+- Partnered with Karier.mu and Prakerja to deliver certified professional development courses; supported 2000+ certified learners.
 - Integrated instructional materials into live projects using the lpk-arum.com codebase as a real-world case study.
 
 #### Full-Stack Programmer — SistemSekolahku / Yayasan Ribathul Ukhuwah, Tegal
@@ -104,30 +104,28 @@ Core stack: TypeScript, Node.js, Express.js, PHP/CodeIgniter 4, Nuxt/Vue.js, Rea
 
 **Featured project — Sada Logistic Transport:** Designed routing and delivery management APIs; led technical architecture; reduced delivery planning time by ~25%.
 
-**Featured project — KurirHub (Courier & Delivery Platform, 2023):** Designed backend logistics APIs and real-time tracking; supported 5k+ deliveries/month across multiple driver partners; led API design and technical scope.
-
 ## Technical Leadership & Impact Summary
 
 | Impact area | Result | Context |
 |---|---|---|
-| API latency | ~30% reduction | Query optimization, indexing, caching (Alpha Reds Solutions) |
-| Deployment time | ~50% reduction | Containerized microservices deployment on AWS/Docker (Vobis.io) |
-| Manual processing | ~40% reduction | AI-powered HR workflow automation (Alpha Reds Solutions) |
-| Database throughput | ~25% improvement | Schema and index optimization (Alpha Reds Solutions) |
-| Manual effort | ~35 hours/month saved | Sales and accounting automation (Vobis.io) |
-| Production uptime | 99.9% | Backend services (Alpha Reds Solutions) |
-| Network uptime | 99.8% | Multi-site infrastructure (PT Roda Chakra Kencana) |
-| Bug reduction | ~35% | Code refactoring and quality initiatives (eLingkungan) |
-| Users trained | 150+ students | Web/backend instruction (LPK Arum) |
-| Certified learners | 200+ | Karier.mu / Prakerja partnerships (LPK Arum) |
-| Concurrent users | 10k+ MAU | Store and administration portals (Alpha Reds Solutions) |
+| Monthly transactions | 10k+ | Travel tech and HRIS platforms (Alpha Reds Solutions) |
+| API latency | ~30% reduction | Schema redesign, indexing, Redis caching, WebSocket real-time delivery, RabbitMQ queues — applied across all projects |
+| Production uptime | 99.9% | Backend services — applied across all projects |
+| Deployment time | ~50% reduction | CI/CD automation for containerized microservices — applied across all projects |
+| Manual HR effort | ~40% reduction | AI-powered HRIS: overtime, leave, eClaims, automated reporting (Alpha Reds Solutions) |
+| Database throughput | ~25% improvement | Schema and index optimization — applied across all projects |
+| Manual effort | ~35 hours/month saved | Sales/accounting reconciliation automation (Vobis.io) plus HRIS eClaim, eLeave, and overtime workflows |
+| Network uptime | 99.8% | Multi-site infrastructure with MikroTik routing, VPN tunnels, and security hardening (PT Roda Chakra Kencana) |
+| Bug reduction | ~35% | Structured refactoring with unit and regression testing before every deploy (eLingkungan) |
+| Students trained | 1500+ Students | Web and backend instruction (LPK Arum) |
+| Certified learners | 2000+ Students | Karier.mu / Prakerja partnerships (LPK Arum) |
 
 ## Project Experience
 
 - **Orbyte — HRIS Platform (Alpha Reds Solutions):** Built HRIS platform end to end with AI-powered HR workflow automation; managed delivery through internal DevOps tracking (Jira, Azure DevOps).
 - **Xplore Genting — Travel Tech Platform (Alpha Reds Solutions):** Developed travel tech platform features for Genting Highlands offerings; built backend services and integrated frontend with booking workflows.
 - **Vobis ERP (Vobis.io):** Built ERP system end to end for fintech operations; implemented accounting theory into automated reconciliation, journal entries, and financial reporting modules.
-- **KurirHub — Courier & Delivery Platform (2023):** Designed backend logistics APIs and real-time tracking; 5k+ deliveries/month; led API design. 
+- **KurirHub — Courier & Delivery Platform (2023, freelance):** Designed backend logistics APIs and real-time tracking; 5k+ deliveries/month across multiple driver partners; led API design and technical scope.
 - **Sada Logistic Transport — Logistics & Delivery Platform:** Designed routing and delivery management APIs; reduced delivery planning time by ~25%; led technical architecture.
 - **Dragonest Private Server Web — WonderFull DN:** Built game server web panel supporting concurrent sessions for a private server community.
 - **Mobile Meme Generator:** Created Flutter mobile application for iOS and Android.

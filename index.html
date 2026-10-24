@@ -7,44 +7,47 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #111;
   margin: 0;
+  background: #fff;
 }
 h1 { letter-spacing: .3pt; }
 h2 {
   text-transform: uppercase; letter-spacing: .6pt;
-  border-bottom: 1pt solid #333; padding-bottom: 1pt;
+  border-bottom: 1pt solid #333; padding-bottom: 1.5pt;
 }
 p.date { font-weight: bold; }
 strong { font-weight: bold; }
 ul.edu { list-style: none; padding-left: 0; }
 ul.cols { columns: 2; column-gap: 18pt; }
 
-body { font-size: 10.5pt; line-height: 1.45; background: #e8eaed; padding: 28px 12px; }
-.page { max-width: 820px; margin: 0 auto; background: #fff; padding: 40px 48px;
-        box-shadow: 0 1px 6px rgba(0,0,0,.18); border-radius: 4px; }
-h1 { font-size: 22pt; margin: 0 0 2pt; }
-h2 { font-size: 12pt; margin: 16pt 0 5pt; }
-h3 { font-size: 11.5pt; margin: 9pt 0 0; }
-h4 { font-size: 10.5pt; margin: 7pt 0 0; }
-p { margin: 2pt 0; }
-p.date { margin: 0 0 3pt; }
-ul { margin: 3pt 0 6pt; padding-left: 16pt; }
-li { margin: 0 0 2pt; }
-ul.edu { margin: 3pt 0; }
+@media screen {
+  body { font-size: 10.5pt; line-height: 1.5; background: #e8eaed; padding: 28px 12px; }
+  .page { max-width: 820px; margin: 0 auto; background: #fff; padding: 40px 48px;
+          box-shadow: 0 1px 6px rgba(0,0,0,.18); border-radius: 4px; }
+  h1 { font-size: 22pt; margin: 0 0 2pt; }
+  h2 { font-size: 12pt; margin: 16pt 0 5pt; }
+  h3 { font-size: 11.5pt; margin: 9pt 0 0; }
+  h4 { font-size: 10.5pt; margin: 7pt 0 0; }
+  p { margin: 2pt 0; }
+  p.date { margin: 0 0 3pt; }
+  ul { margin: 3pt 0 6pt; padding-left: 16pt; }
+  li { margin: 0 0 2pt; }
+  ul.edu { margin: 3pt 0; }
+}
 @media print { 
-@page { size: A4; margin: 8mm 9mm; }
-body { font-size: 8.7pt; line-height: 1.12; }
-.page { max-width: none; padding: 0; box-shadow: none; border-radius: 0; }
-h1 { font-size: 14pt; margin: 0 0 1pt; }
-h2 { font-size: 9.8pt; margin: 4.5pt 0 2pt; }
-h3 { font-size: 9.4pt; margin: 3.5pt 0 0; }
-h4 { font-size: 8.8pt; margin: 3.5pt 0 0; }
-p { margin: 0.8pt 0; }
-p.date { margin: 0 0 1.2pt; }
-p.impact { margin: 0.6pt 0; }
-ul { margin: 1.2pt 0 2.5pt; padding-left: 12pt; }
-li { margin: 0 0 0.2pt; }
-ul.edu { margin: 1.5pt 0; }
-.job { page-break-inside: avoid; }
+@page { size: A4; margin: 10mm 11mm; }
+body { font-size: 9pt; line-height: 1.26; }
+h1 { font-size: 14pt; margin: 0 0 2pt; }
+h2 { font-size: 9.8pt; margin: 8pt 0 3.2pt; }
+h3 { font-size: 9.6pt; margin: 6pt 0 0; }
+h4 { font-size: 9pt; margin: 5pt 0 0; }
+p { margin: 1.2pt 0; }
+p.date { margin: 0 0 2pt; }
+p.impact { margin: 1pt 0; }
+ul { margin: 2pt 0 3.5pt; padding-left: 13pt; }
+li { margin: 0 0 0.8pt; }
+ul.edu { margin: 2pt 0; }
+h2, h3, h4, p.date { page-break-after: avoid; }
+li { page-break-inside: avoid; }
  }</style></head>
 <body><div class="page"><h1>JAISY (JAY) AL HUDA SIBGHOTULLAH</h1>
 <p class="tagline"><strong>Senior Full-Stack Software Engineer</strong></p>
@@ -56,11 +59,11 @@ ul.edu { margin: 1.5pt 0; }
 <p>Core stack: TypeScript, Node.js, Express.js, PHP/CodeIgniter 4, Nuxt/Vue.js, React/Next.js, PostgreSQL/MySQL, Flutter — applied across web, mobile, and desktop delivery in Agile/Scrum teams.</p>
 <p><strong>Senior-level impact:</strong> Led backend architecture supporting 10k+ monthly active users; mentored junior developers and trainees; maintained 99.9% production uptime.</p>
 <h2>Core Technical Competencies</h2>
-<ul class=""><li><strong>Languages:</strong> TypeScript, JavaScript, PHP, Dart, C#, SQL</li><li><strong>Backend:</strong> Node.js, Express.js, Medusa.js, ElysiaJs, CodeIgniter 4, REST API design, automation workflows</li><li><strong>Frontend:</strong> Nuxt, Vue.js, Next.js, React, Pinia, responsive UI, reusable component libraries</li><li><strong>Mobile & Desktop:</strong> Flutter, cross-platform application architecture</li><li><strong>Data:</strong> PostgreSQL, MySQL, MS SQL Server, MariaDB, SQLite, TypeORM, query optimization, indexing</li><li><strong>Cloud & DevOps:</strong> AWS, Google Cloud, Docker, CI/CD pipeline design, deployment automation, monitoring, Git</li><li><strong>Architecture:</strong> Microservices, multi-tenancy, API/schema design, scalability patterns, fault tolerance</li><li><strong>Leadership:</strong> Technical decision-making, code reviews, mentorship, Agile/Scrum, SDLC ownership</li></ul>
+<ul class=""><li><strong>Languages:</strong> TypeScript, JavaScript, PHP, Dart, C#, SQL</li><li><strong>Backend:</strong> Node.js, Express.js, Medusa.js, ElysiaJs, CodeIgniter 4, REST API design, WebSocket, RabbitMQ, automation workflows, unit and regression testing</li><li><strong>Frontend:</strong> Nuxt, Vue.js, Next.js, React, Pinia, responsive UI, reusable component libraries</li><li><strong>Mobile & Desktop:</strong> Flutter, cross-platform application architecture</li><li><strong>Data:</strong> PostgreSQL, MySQL, MS SQL Server, MariaDB, SQLite, Redis, TypeORM, query optimization, indexing</li><li><strong>Cloud & DevOps:</strong> AWS, Google Cloud, Docker, CI/CD pipeline design, deployment automation, MikroTik, VPN, network security, monitoring, Git</li><li><strong>Architecture:</strong> Microservices, multi-tenancy, API/schema design, scalability patterns, fault tolerance, risk management</li><li><strong>Leadership:</strong> Technical decision-making, code reviews, mentorship, Agile/Scrum, SDLC ownership</li></ul>
 <h2>Professional Experience</h2>
 <h3>Senior Back-End Developer — Alpha Reds Solutions (Malaysia) · Remote</h3>
 <p class="date"><strong>Nov 2025 – Present</strong></p>
-<ul class=""><li>Designed backend services with Node.js, Express.js, Medusa.js, ElysiaJs, and TypeScript supporting ~10k+ monthly active users across store and administration portals.</li><li>Owned service boundaries, data modeling, and API contracts for store and administration systems.</li><li>Engineered REST APIs and reduced average API response time by ~30% through schema redesign, indexing, and caching strategies.</li><li>Built React and Next.js interfaces consuming backend APIs through a shared API contract process with frontend engineers, supporting a 10k+ MAU e-commerce store platform.</li><li>Designed and maintained MySQL and PostgreSQL schemas using TypeORM for reliable, multi-tenant data access.</li><li>Translated product, order, and inventory requirements into maintainable backend logic supporting high-volume e-commerce processing.</li><li>Built AI-powered HRIS modules covering overtime, leave, and eClaims management; automated HR workflows and reduced manual HR effort by ~40%.</li><li>Automated reporting with AI-generated meeting summaries and DevOps task reports aggregated from Jira, Clockify, and Azure DevOps.</li><li>Improved database query throughput by ~25% through schema and index optimization.</li><li>Maintained 99.9% production uptime for backend services.</li></ul>
+<ul class=""><li>Designed backend services with Node.js, Express.js, Medusa.js, ElysiaJs, and TypeScript supporting travel tech and HRIS platforms processing 10k+ transactions per month.</li><li>Owned service boundaries, data modeling, and API contracts for travel tech and HRIS systems.</li><li>Engineered REST APIs and reduced average API response time by ~30% through schema redesign, indexing, and caching strategies.</li><li>Built React and Next.js interfaces consuming backend APIs through a shared API contract process with frontend engineers, supporting platforms that process 10k+ transactions per month.</li><li>Designed and maintained MySQL and PostgreSQL schemas using TypeORM for reliable, multi-tenant data access.</li><li>Translated product, order, and inventory requirements into maintainable backend logic supporting high-volume e-commerce processing.</li><li>Built AI-powered HRIS modules covering overtime, leave, and eClaims management; automated HR workflows and reduced manual HR effort by ~40%.</li><li>Automated reporting with AI-generated meeting summaries and DevOps task reports aggregated from Jira, Clockify, and Azure DevOps.</li><li>Improved database query throughput by ~25% through schema and index optimization.</li><li>Maintained 99.9% production uptime for backend services.</li></ul>
 <h3>Front-End Developer — Kemang Internet Pte Ltd (Kembang Internet)</h3>
 <p class="date"><strong>May 2025 – Oct 2025</strong></p>
 <ul class=""><li>Built responsive, high-performance web applications with Nuxt and Vue.js; achieved Lighthouse scores of 90+ on core pages.</li><li>Integrated frontend applications with backend APIs using reusable, scalable UI components.</li><li>Reduced frontend bundle size by ~15% through code splitting and lazy loading.</li><li>Partnered with the design team to convert Figma designs into production-ready, performant components.</li></ul>
@@ -73,7 +76,7 @@ ul.edu { margin: 1.5pt 0; }
 <h3>On-Demand Maintenance Developer (Freelance)</h3>
 <h4>Web Developer Instructor — LPK Arum, Tegal</h4>
 <p class="date"><strong>Feb 2016 – Present</strong></p>
-<ul class=""><li>Delivered web development instruction online and on-site; trained 150+ students in web and backend development.</li><li>Mentored 150+ learners in responsive design and maintainable coding practices.</li><li>Designed industry-aligned curriculum modules for web and backend tracks.</li><li>Partnered with Karier.mu and Prakerja to deliver certified professional development courses; supported 200+ certified learners.</li><li>Integrated instructional materials into live projects using the lpk-arum.com codebase as a real-world case study.</li></ul>
+<ul class=""><li>Delivered web development instruction online and on-site; trained 1500+ students in web and backend development.</li><li>Mentored 1500+ learners in responsive design and maintainable coding practices.</li><li>Designed industry-aligned curriculum modules for web and backend tracks.</li><li>Partnered with Karier.mu and Prakerja to deliver certified professional development courses; supported 2000+ certified learners.</li><li>Integrated instructional materials into live projects using the lpk-arum.com codebase as a real-world case study.</li></ul>
 <h4>Full-Stack Programmer — SistemSekolahku / Yayasan Ribathul Ukhuwah, Tegal</h4>
 <p class="date"><strong>Oct 2019 – Present</strong></p>
 <ul class=""><li>Delivered a school management system covering payments, attendance, and reporting; served 5 institutional clients with 2k+ active students.</li><li>Built backend architecture with CodeIgniter 4/PHP and cross-platform mobile applications with Flutter.</li><li>Reduced data entry errors by ~30% through automated validation.</li><li>Provisioned secure, isolated client environments; deployed CI/CD pipelines via sistemsekolahku.com.</li><li>Supported high-traffic platforms such as situsamah.com and musha.id.</li></ul>
@@ -84,21 +87,20 @@ ul.edu { margin: 1.5pt 0; }
 <p class="date"><strong>Mar 2022 – Present</strong></p>
 <ul class=""><li>Enhanced and maintained web applications with Nuxt and TypeScript; improved page load speed by ~25%.</li><li>Implemented backend logic and frontend features using PHP, CodeIgniter, and Vue.js.</li><li>Led structured refactoring initiatives; reduced bug reports by ~35% post-refactor.</li><li>Improved codebase maintainability across the application.</li></ul>
 <p><strong>Featured project — Sada Logistic Transport:</strong> Designed routing and delivery management APIs; led technical architecture; reduced delivery planning time by ~25%.</p>
-<p><strong>Featured project — KurirHub (Courier & Delivery Platform, 2023):</strong> Designed backend logistics APIs and real-time tracking; supported 5k+ deliveries/month across multiple driver partners; led API design and technical scope.</p>
 <h2>Technical Leadership & Impact Summary</h2>
-<p class="impact"><strong>API latency:</strong> ~30% reduction — Query optimization, indexing, caching (Alpha Reds Solutions)</p>
-<p class="impact"><strong>Deployment time:</strong> ~50% reduction — Containerized microservices deployment on AWS/Docker (Vobis.io)</p>
-<p class="impact"><strong>Manual processing:</strong> ~40% reduction — AI-powered HR workflow automation (Alpha Reds Solutions)</p>
-<p class="impact"><strong>Database throughput:</strong> ~25% improvement — Schema and index optimization (Alpha Reds Solutions)</p>
-<p class="impact"><strong>Manual effort:</strong> ~35 hours/month saved — Sales and accounting automation (Vobis.io)</p>
-<p class="impact"><strong>Production uptime:</strong> 99.9% — Backend services (Alpha Reds Solutions)</p>
-<p class="impact"><strong>Network uptime:</strong> 99.8% — Multi-site infrastructure (PT Roda Chakra Kencana)</p>
-<p class="impact"><strong>Bug reduction:</strong> ~35% — Code refactoring and quality initiatives (eLingkungan)</p>
-<p class="impact"><strong>Users trained:</strong> 150+ students — Web/backend instruction (LPK Arum)</p>
-<p class="impact"><strong>Certified learners:</strong> 200+ — Karier.mu / Prakerja partnerships (LPK Arum)</p>
-<p class="impact"><strong>Concurrent users:</strong> 10k+ MAU — Store and administration portals (Alpha Reds Solutions)</p>
+<p class="impact"><strong>Monthly transactions:</strong> 10k+ — Travel tech and HRIS platforms (Alpha Reds Solutions)</p>
+<p class="impact"><strong>API latency:</strong> ~30% reduction — Schema redesign, indexing, Redis caching, WebSocket real-time delivery, RabbitMQ queues — applied across all projects</p>
+<p class="impact"><strong>Production uptime:</strong> 99.9% — Backend services — applied across all projects</p>
+<p class="impact"><strong>Deployment time:</strong> ~50% reduction — CI/CD automation for containerized microservices — applied across all projects</p>
+<p class="impact"><strong>Manual HR effort:</strong> ~40% reduction — AI-powered HRIS: overtime, leave, eClaims, automated reporting (Alpha Reds Solutions)</p>
+<p class="impact"><strong>Database throughput:</strong> ~25% improvement — Schema and index optimization — applied across all projects</p>
+<p class="impact"><strong>Manual effort:</strong> ~35 hours/month saved — Sales/accounting reconciliation automation (Vobis.io) plus HRIS eClaim, eLeave, and overtime workflows</p>
+<p class="impact"><strong>Network uptime:</strong> 99.8% — Multi-site infrastructure with MikroTik routing, VPN tunnels, and security hardening (PT Roda Chakra Kencana)</p>
+<p class="impact"><strong>Bug reduction:</strong> ~35% — Structured refactoring with unit and regression testing before every deploy (eLingkungan)</p>
+<p class="impact"><strong>Students trained:</strong> 1500+ Students — Web and backend instruction (LPK Arum)</p>
+<p class="impact"><strong>Certified learners:</strong> 2000+ Students — Karier.mu / Prakerja partnerships (LPK Arum)</p>
 <h2>Project Experience</h2>
-<ul class=""><li><strong>Orbyte — HRIS Platform (Alpha Reds Solutions):</strong> Built HRIS platform end to end with AI-powered HR workflow automation; managed delivery through internal DevOps tracking (Jira, Azure DevOps).</li><li><strong>Xplore Genting — Travel Tech Platform (Alpha Reds Solutions):</strong> Developed travel tech platform features for Genting Highlands offerings; built backend services and integrated frontend with booking workflows.</li><li><strong>Vobis ERP (Vobis.io):</strong> Built ERP system end to end for fintech operations; implemented accounting theory into automated reconciliation, journal entries, and financial reporting modules.</li><li><strong>KurirHub — Courier & Delivery Platform (2023):</strong> Designed backend logistics APIs and real-time tracking; 5k+ deliveries/month; led API design.</li><li><strong>Sada Logistic Transport — Logistics & Delivery Platform:</strong> Designed routing and delivery management APIs; reduced delivery planning time by ~25%; led technical architecture.</li><li><strong>Dragonest Private Server Web — WonderFull DN:</strong> Built game server web panel supporting concurrent sessions for a private server community.</li><li><strong>Mobile Meme Generator:</strong> Created Flutter mobile application for iOS and Android.</li><li><strong>Flutter Flamelearning Template:</strong> Developed educational game template using the Flutter Flame engine.</li><li><strong>Industrial Desktop Application — PT. BBS / PT. MBS:</strong> Built C# desktop application for industrial workflow management.</li><li><strong>Tracer Study:</strong> Developed alumni tracking and reporting system for an educational institution.</li><li><strong>Crypto Monitoring:</strong> Created real-time cryptocurrency price tracking dashboard.</li><li><strong>CMS (yru.or.id):</strong> Built content management system for an organizational website.</li><li><strong>Tax Public Survey:</strong> Developed tax collection and public feedback survey platform.</li><li><strong>Machine Learning — Barbershop Hair Style Matching:</strong> Implemented ML-based hairstyle recommendation system.</li><li><strong>Competition Live Scoring:</strong> Built real-time scoring system for live competitions and events.</li><li><strong>vue-form — npm package:</strong> Published auto form-generation library for Vue 3 and Nuxt.</li><li><strong>auto-summary — VS Code extension:</strong> Built extension that auto-generates function summary documentation (TypeScript).</li><li><strong>json_schema_db:</strong> Built JSON-file-based database engine for lightweight persistence (PHP).</li><li><strong>socketio-sqlite:</strong> Built real-time websocket chat module using Socket.IO and SQLite.</li><li><strong>crud_generator:</strong> Created instant CRUD scaffolding generator for PHP development.</li><li><strong>Vue & Node utility libraries:</strong> Shipped vue-captcha, vue-table, vue-loading, read-xlsx-node (xlsx-to-JSON), encrypt_blowfish (Blowfish encryption), and auto_test (self-testing function utility).</li></ul>
+<ul class=""><li><strong>Orbyte — HRIS Platform (Alpha Reds Solutions):</strong> Built HRIS platform end to end with AI-powered HR workflow automation; managed delivery through internal DevOps tracking (Jira, Azure DevOps).</li><li><strong>Xplore Genting — Travel Tech Platform (Alpha Reds Solutions):</strong> Developed travel tech platform features for Genting Highlands offerings; built backend services and integrated frontend with booking workflows.</li><li><strong>Vobis ERP (Vobis.io):</strong> Built ERP system end to end for fintech operations; implemented accounting theory into automated reconciliation, journal entries, and financial reporting modules.</li><li><strong>KurirHub — Courier & Delivery Platform (2023, freelance):</strong> Designed backend logistics APIs and real-time tracking; 5k+ deliveries/month across multiple driver partners; led API design and technical scope.</li><li><strong>Sada Logistic Transport — Logistics & Delivery Platform:</strong> Designed routing and delivery management APIs; reduced delivery planning time by ~25%; led technical architecture.</li><li><strong>Dragonest Private Server Web — WonderFull DN:</strong> Built game server web panel supporting concurrent sessions for a private server community.</li><li><strong>Mobile Meme Generator:</strong> Created Flutter mobile application for iOS and Android.</li><li><strong>Flutter Flamelearning Template:</strong> Developed educational game template using the Flutter Flame engine.</li><li><strong>Industrial Desktop Application — PT. BBS / PT. MBS:</strong> Built C# desktop application for industrial workflow management.</li><li><strong>Tracer Study:</strong> Developed alumni tracking and reporting system for an educational institution.</li><li><strong>Crypto Monitoring:</strong> Created real-time cryptocurrency price tracking dashboard.</li><li><strong>CMS (yru.or.id):</strong> Built content management system for an organizational website.</li><li><strong>Tax Public Survey:</strong> Developed tax collection and public feedback survey platform.</li><li><strong>Machine Learning — Barbershop Hair Style Matching:</strong> Implemented ML-based hairstyle recommendation system.</li><li><strong>Competition Live Scoring:</strong> Built real-time scoring system for live competitions and events.</li><li><strong>vue-form — npm package:</strong> Published auto form-generation library for Vue 3 and Nuxt.</li><li><strong>auto-summary — VS Code extension:</strong> Built extension that auto-generates function summary documentation (TypeScript).</li><li><strong>json_schema_db:</strong> Built JSON-file-based database engine for lightweight persistence (PHP).</li><li><strong>socketio-sqlite:</strong> Built real-time websocket chat module using Socket.IO and SQLite.</li><li><strong>crud_generator:</strong> Created instant CRUD scaffolding generator for PHP development.</li><li><strong>Vue & Node utility libraries:</strong> Shipped vue-captcha, vue-table, vue-loading, read-xlsx-node (xlsx-to-JSON), encrypt_blowfish (Blowfish encryption), and auto_test (self-testing function utility).</li></ul>
 <h2>Education</h2>
 <p><strong>Universitas Nusa Mandiri</strong> — Information Technology (2025) — Bachelor Degree</p>
 <p><strong>BSI University</strong> — Computer Technology (2015) — Associate Degree</p>

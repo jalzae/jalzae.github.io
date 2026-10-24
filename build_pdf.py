@@ -16,11 +16,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #111;
   margin: 0;
+  background: #fff;
 }
 h1 { letter-spacing: .3pt; }
 h2 {
   text-transform: uppercase; letter-spacing: .6pt;
-  border-bottom: 1pt solid #333; padding-bottom: 1pt;
+  border-bottom: 1pt solid #333; padding-bottom: 1.5pt;
 }
 p.date { font-weight: bold; }
 strong { font-weight: bold; }
@@ -29,35 +30,37 @@ ul.cols { columns: 2; column-gap: 18pt; }
 """
 
 SCREEN_CSS = """
-body { font-size: 10.5pt; line-height: 1.45; background: #e8eaed; padding: 28px 12px; }
-.page { max-width: 820px; margin: 0 auto; background: #fff; padding: 40px 48px;
-        box-shadow: 0 1px 6px rgba(0,0,0,.18); border-radius: 4px; }
-h1 { font-size: 22pt; margin: 0 0 2pt; }
-h2 { font-size: 12pt; margin: 16pt 0 5pt; }
-h3 { font-size: 11.5pt; margin: 9pt 0 0; }
-h4 { font-size: 10.5pt; margin: 7pt 0 0; }
-p { margin: 2pt 0; }
-p.date { margin: 0 0 3pt; }
-ul { margin: 3pt 0 6pt; padding-left: 16pt; }
-li { margin: 0 0 2pt; }
-ul.edu { margin: 3pt 0; }
+@media screen {
+  body { font-size: 10.5pt; line-height: 1.5; background: #e8eaed; padding: 28px 12px; }
+  .page { max-width: 820px; margin: 0 auto; background: #fff; padding: 40px 48px;
+          box-shadow: 0 1px 6px rgba(0,0,0,.18); border-radius: 4px; }
+  h1 { font-size: 22pt; margin: 0 0 2pt; }
+  h2 { font-size: 12pt; margin: 16pt 0 5pt; }
+  h3 { font-size: 11.5pt; margin: 9pt 0 0; }
+  h4 { font-size: 10.5pt; margin: 7pt 0 0; }
+  p { margin: 2pt 0; }
+  p.date { margin: 0 0 3pt; }
+  ul { margin: 3pt 0 6pt; padding-left: 16pt; }
+  li { margin: 0 0 2pt; }
+  ul.edu { margin: 3pt 0; }
+}
 """
 
 PRINT_CSS = """
-@page { size: A4; margin: 8mm 9mm; }
-body { font-size: 8.7pt; line-height: 1.12; }
-.page { max-width: none; padding: 0; box-shadow: none; border-radius: 0; }
-h1 { font-size: 14pt; margin: 0 0 1pt; }
-h2 { font-size: 9.8pt; margin: 4.5pt 0 2pt; }
-h3 { font-size: 9.4pt; margin: 3.5pt 0 0; }
-h4 { font-size: 8.8pt; margin: 3.5pt 0 0; }
-p { margin: 0.8pt 0; }
-p.date { margin: 0 0 1.2pt; }
-p.impact { margin: 0.6pt 0; }
-ul { margin: 1.2pt 0 2.5pt; padding-left: 12pt; }
-li { margin: 0 0 0.2pt; }
-ul.edu { margin: 1.5pt 0; }
-.job { page-break-inside: avoid; }
+@page { size: A4; margin: 10mm 11mm; }
+body { font-size: 9pt; line-height: 1.26; }
+h1 { font-size: 14pt; margin: 0 0 2pt; }
+h2 { font-size: 9.8pt; margin: 8pt 0 3.2pt; }
+h3 { font-size: 9.6pt; margin: 6pt 0 0; }
+h4 { font-size: 9pt; margin: 5pt 0 0; }
+p { margin: 1.2pt 0; }
+p.date { margin: 0 0 2pt; }
+p.impact { margin: 1pt 0; }
+ul { margin: 2pt 0 3.5pt; padding-left: 13pt; }
+li { margin: 0 0 0.8pt; }
+ul.edu { margin: 2pt 0; }
+h2, h3, h4, p.date { page-break-after: avoid; }
+li { page-break-inside: avoid; }
 """
 
 def bold(s: str) -> str:
